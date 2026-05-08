@@ -25,6 +25,8 @@ public class Arrays {
             System.out.print(marks[i] + " ");
         }
         System.out.println();
+
+        System.out.println("End of lesson.");
     }
 }
 
