@@ -36,7 +36,9 @@ public class Variables {
         //String
         String place = "Lahore and Multan";
         System.out.println(place.length());
-        System.out.println(place.substring(0,7));
+        System.out.print(place.substring(0,7));
+        System.out.println(place.charAt(6));
+        System.out.println(place.replace("L" , "P"));
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
