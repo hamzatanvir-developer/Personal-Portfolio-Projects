@@ -94,5 +94,11 @@ public class Operators {
             default:
                 System.out.println("Wednesday - Sunday");
         }
+
+        //Maths class
+
+        System.out.println(Math.max(3,5)); //.max for maximum
+        System.out.println(Math.min(3,5)); //.min for minimum
+        System.out.println((int)(Math.random()*100)); //.random for random numbers
     }
 }
