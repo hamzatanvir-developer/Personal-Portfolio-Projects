@@ -30,6 +30,8 @@ public class Functions {
         System.out.println(add(3,5)); //8
         System.out.println(mul(3,5)); //15
         System.out.println(subtract(3,5)); //-2
+
+
     }
 
 }
