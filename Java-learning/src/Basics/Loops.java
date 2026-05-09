@@ -1,5 +1,7 @@
 package Basics;
 
+import java.util.Scanner;
+
 public class Loops {
     public static void main(String[] args) {
 
@@ -13,6 +15,7 @@ public class Loops {
             System.out.println(i);
         }
 
+        //Break and Continue
         for (int i = 0; i < 5; i++){
             if (i == 4){
                 continue;  //for skipping values
@@ -38,5 +41,28 @@ public class Loops {
         }
 
         //While loop
+        int i = 0;
+        while (i <= 100){
+            System.out.println(i);
+            i = i + 1;
+        }
+
+        int j = 1;
+        do {
+            System.out.println(j);
+            j = j + 1;
+        }while (j <= 10);
+
+        //Practice program
+        Scanner sc = new Scanner(System.in);
+        int numberss= 0;
+
+        do {
+            System.out.println("Enter numbers: ");
+            numberss = sc.nextInt();
+            System.out.println("Number you entered: ");
+            System.out.println(numbers);
+        }while (numberss >= 0);
+        System.out.println("The End.");
     }
 }
