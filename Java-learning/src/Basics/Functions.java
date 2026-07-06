@@ -3,7 +3,7 @@ package Basics;
 public class Functions {
 
     //Functions are defined to do specific and repetitive tasks
-    //Define to perform specific and repetitive tasks so that we don't need to write same code again and again
+    //Define to perform specific and repetitive tasks so that we don't need to write same code again and again.
 
     public static void printJava(){
         System.out.println("Hello Java");
