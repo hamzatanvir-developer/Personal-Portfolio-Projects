@@ -2,11 +2,12 @@ package Basics;
 
 import java.util.Scanner;
 
+// Array Definition:
 // Array is basically a data structure which we use to store multiple same elements "e.g" marks,subjects,students etc.
 
 public class Arrays {
     public static void main(String[] args) {
-        //Array creation nd initialization
+        //Array creation and initialization
         //Input
         Scanner input = new Scanner(System.in);
 
