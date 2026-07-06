@@ -24,12 +24,18 @@ public class Functions {
         return a * b;
     }
 
+    //Function for division of numbers
+    public static int div(int a , int b){
+        return a / b;
+    }
+
 
     public static void main(String[] args) {
         printJava();
         System.out.println(add(3,5)); //8
         System.out.println(mul(3,5)); //15
         System.out.println(subtract(3,5)); //-2
+        System.out.println(div(8,2)); // 4
 
 
 
