@@ -2,7 +2,7 @@ package Basics;
 
 import java.util.Scanner;
 
-// Array is basically a data structure which we use to store multiple same elements "e.g" marks,subjects,students
+// Array is basically a data structure which we use to store multiple same elements "e.g" marks,subjects,students etc.
 
 public class Arrays {
     public static void main(String[] args) {
