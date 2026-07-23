@@ -19,5 +19,5 @@ Concepts Used
 
 package Basics;
 
-public class PersonalBudgtPlanner {
+public class PersonalBudgetPlannerProject {
 }
