@@ -20,4 +20,9 @@ Concepts Used
 package Basics;
 
 public class PersonalBudgetPlannerProject {
+    public static void main(String[] args) {
+
+        int income = 30000;
+        String[] expenses = {"Grocery" ,"Petrol" , "Rent" , "Insurance"};
+    }
 }
